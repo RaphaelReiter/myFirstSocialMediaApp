@@ -22,10 +22,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VBr-aH-tMi">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VBr-aH-tMi" customClass="FancyView" customModule="firstSocialMediaApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue-107705.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vbK-cl-FtP">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue-107705.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vbK-cl-FtP" customClass="fan">
                                         <rect key="frame" x="-788" y="24" width="1951" height="106"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="106" id="dk7-jB-xOF"/>
@@ -67,7 +67,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdQ-OA-6AD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdQ-OA-6AD" customClass="RoundBtn" customModule="firstSocialMediaApp" customModuleProvider="target">
                                 <rect key="frame" x="112.5" y="230" width="150" height="150"/>
                                 <color key="backgroundColor" red="0.23137254901960785" green="0.34901960784313724" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -79,19 +79,19 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="xTS-KC-Whv">
                                 <rect key="frame" x="46" y="420" width="283" height="127"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DmS-12-Ta8">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DmS-12-Ta8" customClass="FancyField" customModule="firstSocialMediaApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="283" height="30"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.86823615771812079" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qcK-zS-rs3">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qcK-zS-rs3" customClass="FancyField" customModule="firstSocialMediaApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="45" width="283" height="30"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.86823615769999996" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbm-bO-i2v">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbm-bO-i2v" customClass="FancyBtn" customModule="firstSocialMediaApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="90" width="283" height="37"/>
                                         <color key="backgroundColor" red="0.8666666666666667" green="0.17254901960784313" blue="0.0" alpha="0.86823615771812079" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="18"/>
@@ -112,6 +112,7 @@
                             <constraint firstItem="Xjc-RT-Abp" firstAttribute="top" secondItem="VBr-aH-tMi" secondAttribute="bottom" constant="20" id="Exk-0L-siB"/>
                             <constraint firstItem="xTS-KC-Whv" firstAttribute="top" secondItem="QdQ-OA-6AD" secondAttribute="bottom" constant="40" id="IcT-1x-tyV"/>
                             <constraint firstItem="xTS-KC-Whv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="NmQ-ci-5m2"/>
+                            <constraint firstItem="7Gq-Rg-0Zh" firstAttribute="top" secondItem="xTS-KC-Whv" secondAttribute="bottom" constant="45" id="dTi-NK-orP"/>
                             <constraint firstItem="xTS-KC-Whv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ed4-3t-gZC"/>
                             <constraint firstAttribute="trailing" secondItem="7Gq-Rg-0Zh" secondAttribute="trailing" id="fL2-bg-SD0"/>
                             <constraint firstItem="VBr-aH-tMi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="he5-XQ-Q2U"/>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D29453B1EF3FD87007B5ADD /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D29453A1EF3FD87007B5ADD /* CircleView.swift */; };
 		2D3C2D9E1EF3BCB500A9D783 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C2D9D1EF3BCB500A9D783 /* FeedVC.swift */; };
 		2DC5751E1EF1A54E00A1ADCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5751D1EF1A54E00A1ADCD /* AppDelegate.swift */; };
 		2DC575201EF1A54E00A1ADCD /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5751F1EF1A54E00A1ADCD /* SignInVC.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D29453A1EF3FD87007B5ADD /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		2D3C2D9D1EF3BCB500A9D783 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		2D592C4F1EF2CB1E00332A36 /* firstSocialMediaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = firstSocialMediaApp.entitlements; sourceTree = "<group>"; };
 		2DC5751A1EF1A54D00A1ADCD /* firstSocialMediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstSocialMediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +119,7 @@
 				2DC5753B1EF286EC00A1ADCD /* RoundBtn.swift */,
 				2DC5753D1EF28BA800A1ADCD /* FancyField.swift */,
 				2DC5753F1EF292FB00A1ADCD /* FancyBtn.swift */,
+				2D29453A1EF3FD87007B5ADD /* CircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D29453B1EF3FD87007B5ADD /* CircleView.swift in Sources */,
 				2DC5753E1EF28BA800A1ADCD /* FancyField.swift in Sources */,
 				2DC575201EF1A54E00A1ADCD /* SignInVC.swift in Sources */,
 				2DC5753C1EF286EC00A1ADCD /* RoundBtn.swift in Sources */,

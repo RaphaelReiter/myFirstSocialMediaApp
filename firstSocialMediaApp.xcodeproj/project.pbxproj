@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D3C2D9E1EF3BCB500A9D783 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C2D9D1EF3BCB500A9D783 /* FeedVC.swift */; };
 		2DC5751E1EF1A54E00A1ADCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5751D1EF1A54E00A1ADCD /* AppDelegate.swift */; };
 		2DC575201EF1A54E00A1ADCD /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC5751F1EF1A54E00A1ADCD /* SignInVC.swift */; };
 		2DC575231EF1A54E00A1ADCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DC575211EF1A54E00A1ADCD /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D3C2D9D1EF3BCB500A9D783 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		2D592C4F1EF2CB1E00332A36 /* firstSocialMediaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = firstSocialMediaApp.entitlements; sourceTree = "<group>"; };
 		2DC5751A1EF1A54D00A1ADCD /* firstSocialMediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstSocialMediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC5751D1EF1A54E00A1ADCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				2DC5751F1EF1A54E00A1ADCD /* SignInVC.swift */,
+				2D3C2D9D1EF3BCB500A9D783 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				2DC575201EF1A54E00A1ADCD /* SignInVC.swift in Sources */,
 				2DC5753C1EF286EC00A1ADCD /* RoundBtn.swift in Sources */,
 				2DC5751E1EF1A54E00A1ADCD /* AppDelegate.swift in Sources */,
+				2D3C2D9E1EF3BCB500A9D783 /* FeedVC.swift in Sources */,
 				2DC575371EF1BC6D00A1ADCD /* FancyView.swift in Sources */,
 				2DC5753A1EF1BD0A00A1ADCD /* Constants.swift in Sources */,
 				2DC575401EF292FB00A1ADCD /* FancyBtn.swift in Sources */,

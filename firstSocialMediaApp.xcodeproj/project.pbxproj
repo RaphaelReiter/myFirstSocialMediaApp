@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1BC0B91EF6728A0036EB3E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BC0B81EF6728A0036EB3E /* DataService.swift */; };
 		2D29453B1EF3FD87007B5ADD /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D29453A1EF3FD87007B5ADD /* CircleView.swift */; };
 		2D29453D1EF50A34007B5ADD /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D29453C1EF50A34007B5ADD /* PostCell.swift */; };
 		2D3C2D9E1EF3BCB500A9D783 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C2D9D1EF3BCB500A9D783 /* FeedVC.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D1BC0B81EF6728A0036EB3E /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		2D29453A1EF3FD87007B5ADD /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		2D29453C1EF50A34007B5ADD /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		2D3C2D9D1EF3BCB500A9D783 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -70,6 +72,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		2D1BC0B71EF672710036EB3E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2D1BC0B81EF6728A0036EB3E /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		2DC575111EF1A54D00A1ADCD = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +101,7 @@
 		2DC5751C1EF1A54D00A1ADCD /* firstSocialMediaApp */ = {
 			isa = PBXGroup;
 			children = (
+				2D1BC0B71EF672710036EB3E /* Services */,
 				2D592C4F1EF2CB1E00332A36 /* firstSocialMediaApp.entitlements */,
 				2DC575381EF1BCF800A1ADCD /* util */,
 				2DC575331EF1AB2200A1ADCD /* Controller */,
@@ -288,6 +299,7 @@
 				2DC575201EF1A54E00A1ADCD /* SignInVC.swift in Sources */,
 				2DC5753C1EF286EC00A1ADCD /* RoundBtn.swift in Sources */,
 				2DC5751E1EF1A54E00A1ADCD /* AppDelegate.swift in Sources */,
+				2D1BC0B91EF6728A0036EB3E /* DataService.swift in Sources */,
 				2D3C2D9E1EF3BCB500A9D783 /* FeedVC.swift in Sources */,
 				2DC575371EF1BC6D00A1ADCD /* FancyView.swift in Sources */,
 				2DC5753A1EF1BD0A00A1ADCD /* Constants.swift in Sources */,

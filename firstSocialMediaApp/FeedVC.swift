@@ -114,15 +114,39 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UIIm
                     print("RAPHAEL: unable to upload image to firebase storage")
                 } else {
                     print("RAPHAEL: Successfully uploaded image to firebase storage")
-                    let downloadURL = metadata?.downloadURL()?.absoluteString
+                     let downloadURL = metadata?.downloadURL()?.absoluteString
+                    if let url = downloadURL {
+                      self.postToFirebase(imgUrl: url)
+                    }
+                    
                 }
             }
         }
+      
     }
     
     @IBAction func addImageTapped(_ sender: Any) {
         
         present(imagePicker, animated: true, completion: nil)
+        
+    }
+    
+    func postToFirebase(imgUrl: String) {
+        let post: Dictionary<String, AnyObject> = [
+            "caption": captionField.text! as AnyObject,
+            "imageUrl": imgUrl as AnyObject,
+            "likes": 0 as AnyObject
+                ]
+        
+        let firebasePost = DataService.ds.REF_POSTS.childByAutoId()
+        firebasePost.setValue(post)
+        
+        captionField.text = ""
+        imageSelected = false
+        imageAdd.image = UIImage(named: "add-image")
+        
+        tableView.reloadData()
+        
         
     }
     
